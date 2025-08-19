@@ -1,0 +1,27 @@
+.hero {
+  &__img {
+    img {
+      //   width: 100%;
+      opacity: 0.9;
+    }
+  }
+  &__text {
+    z-index: 5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: $light-color;
+    div {
+      font-size: 100px;
+      font-weight: 900;
+      font-family: $main-font;
+    }
+    p {
+      padding-top: 20px;
+      font-size: 26px;
+      font-weight: 200;
+      font-family: $main-font;
+    }
+  }
+}

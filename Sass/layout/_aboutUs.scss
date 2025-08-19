@@ -1,0 +1,21 @@
+.about-us {
+  margin-top: 100px;
+  &__img {
+    margin-top: -270px;
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    margin-left: 500px;
+    margin-bottom: 50px;
+    img {
+      width: 75%;
+    }
+  }
+
+  .section-title {
+    width: 50%;
+    p {
+      font-size: 24px;
+    }
+  }
+}

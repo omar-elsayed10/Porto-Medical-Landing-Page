@@ -1,0 +1,52 @@
+.quote {
+  margin-top: 100px;
+  background: linear-gradient(to right, $primary-color, $secondary-color);
+  padding: 40px;
+  font-family: $main-font;
+  &__text {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    &--header {
+      color: $light-color;
+      font-size: 18px;
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      margin: 0px auto;
+    }
+    &--content {
+      color: $light-color;
+      font-size: 35px;
+    }
+  }
+  .border {
+    border: 3px solid $light-color;
+    border-radius: 25%;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    margin: 25px auto;
+  }
+  i {
+    color: $light-color;
+    font-size: 35px;
+  }
+  .fa-quote-right {
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    margin-left: 1100px;
+  }
+  .fa-quote-left {
+    margin-left: 300px;
+  }
+  .quote__text--name {
+    color: $light-color;
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    margin-top: 30px;
+  }
+}
